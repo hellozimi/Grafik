@@ -73,7 +73,7 @@ static GREngine *ENGINE_INSTANCE = NULL;
         baseEffect_.transform.projectionMatrix = projMatrix_;
         
         clearColor_.r = 0.0;
-        clearColor_.g = 1.0;
+        clearColor_.g = 0.0;
         clearColor_.b = 0.0;
         clearColor_.a = 1.0;
     }
