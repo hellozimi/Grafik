@@ -36,7 +36,7 @@
 		F46CA50215BDEDDA0092F616 /* Example-Info.plist */ = {isa = PBXFileReference; path = "Example-Info.plist"; sourceTree = "<group>"; };
 		F46CA50415BDEDDA0092F616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F46CA50615BDEDDA0092F616 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F46CA50815BDEDDA0092F616 /* Example-Prefix.pch */ = {isa = PBXFileReference; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		F46CA50815BDEDDA0092F616 /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
 		F46CA50915BDEDDA0092F616 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F46CA50A15BDEDDA0092F616 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F46CA51715BDEE160092F616 /* Grafik.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grafik.h; sourceTree = "<group>"; };
