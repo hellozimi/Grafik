@@ -29,14 +29,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F46CA4F615BDEDDA0092F616 /* GrafikExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrafikExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46CA4F615BDEDDA0092F616 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46CA4FA15BDEDDA0092F616 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F46CA4FC15BDEDDA0092F616 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F46CA4FE15BDEDDA0092F616 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F46CA50215BDEDDA0092F616 /* GrafikExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrafikExample-Info.plist"; sourceTree = "<group>"; };
+		F46CA50215BDEDDA0092F616 /* Example-Info.plist */ = {isa = PBXFileReference; path = "Example-Info.plist"; sourceTree = "<group>"; };
 		F46CA50415BDEDDA0092F616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F46CA50615BDEDDA0092F616 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F46CA50815BDEDDA0092F616 /* GrafikExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrafikExample-Prefix.pch"; sourceTree = "<group>"; };
+		F46CA50815BDEDDA0092F616 /* Example-Prefix.pch */ = {isa = PBXFileReference; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
 		F46CA50915BDEDDA0092F616 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F46CA50A15BDEDDA0092F616 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F46CA51715BDEE160092F616 /* Grafik.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grafik.h; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		F46CA4F715BDEDDA0092F616 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F46CA4F615BDEDDA0092F616 /* GrafikExample.app */,
+				F46CA4F615BDEDDA0092F616 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,10 +129,10 @@
 		F46CA50115BDEDDA0092F616 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F46CA50215BDEDDA0092F616 /* GrafikExample-Info.plist */,
+				F46CA50215BDEDDA0092F616 /* Example-Info.plist */,
 				F46CA50315BDEDDA0092F616 /* InfoPlist.strings */,
 				F46CA50615BDEDDA0092F616 /* main.m */,
-				F46CA50815BDEDDA0092F616 /* GrafikExample-Prefix.pch */,
+				F46CA50815BDEDDA0092F616 /* Example-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -176,9 +176,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F46CA4F515BDEDDA0092F616 /* GrafikExample */ = {
+		F46CA4F515BDEDDA0092F616 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F46CA50E15BDEDDA0092F616 /* Build configuration list for PBXNativeTarget "GrafikExample" */;
+			buildConfigurationList = F46CA50E15BDEDDA0092F616 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
 				F46CA4F215BDEDDA0092F616 /* Sources */,
 				F46CA4F315BDEDDA0092F616 /* Frameworks */,
@@ -188,9 +188,9 @@
 			);
 			dependencies = (
 			);
-			name = GrafikExample;
+			name = Example;
 			productName = GrafikExample;
-			productReference = F46CA4F615BDEDDA0092F616 /* GrafikExample.app */;
+			productReference = F46CA4F615BDEDDA0092F616 /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +202,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = Hiddencode.me;
 			};
-			buildConfigurationList = F46CA4F015BDEDDA0092F616 /* Build configuration list for PBXProject "GrafikExample" */;
+			buildConfigurationList = F46CA4F015BDEDDA0092F616 /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -214,7 +214,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F46CA4F515BDEDDA0092F616 /* GrafikExample */,
+				F46CA4F515BDEDDA0092F616 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -313,8 +313,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GrafikExample/GrafikExample-Prefix.pch";
-				INFOPLIST_FILE = "GrafikExample/GrafikExample-Info.plist";
+				GCC_PREFIX_HEADER = "GrafikExample/Example-Prefix.pch";
+				INFOPLIST_FILE = "GrafikExample/Example-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -325,8 +325,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GrafikExample/GrafikExample-Prefix.pch";
-				INFOPLIST_FILE = "GrafikExample/GrafikExample-Info.plist";
+				GCC_PREFIX_HEADER = "GrafikExample/Example-Prefix.pch";
+				INFOPLIST_FILE = "GrafikExample/Example-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -336,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F46CA4F015BDEDDA0092F616 /* Build configuration list for PBXProject "GrafikExample" */ = {
+		F46CA4F015BDEDDA0092F616 /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F46CA50C15BDEDDA0092F616 /* Debug */,
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F46CA50E15BDEDDA0092F616 /* Build configuration list for PBXNativeTarget "GrafikExample" */ = {
+		F46CA50E15BDEDDA0092F616 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F46CA50F15BDEDDA0092F616 /* Debug */,
