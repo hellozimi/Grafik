@@ -28,6 +28,7 @@
 #import "GRContext.h"
 #import "GRGLView.h"
 #import "GRSprite.h"
+#import "GRNode.h"
 #import "GRAnimatedSprite.h"
 #import "GRTypes.h"
 #import "GRSpriteAction.h"
