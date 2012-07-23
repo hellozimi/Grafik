@@ -9,9 +9,11 @@ Example
 =======
 
 First you need to like the following frameworks in build phases.
-	QuartzCore.framework
-	GLKit.framework
-	OpenGLES.framework
+    
+    QuartzCore.framework
+    GLKit.framework
+    OpenGLES.framework
+    
 
 Next you need import the following headers to your `*-Prefix.pch` file.
     
