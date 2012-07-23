@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F46CA4FB15BDEDDA0092F616 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46CA4FA15BDEDDA0092F616 /* UIKit.framework */; };
+		F46CA4FD15BDEDDA0092F616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46CA4FC15BDEDDA0092F616 /* Foundation.framework */; };
+		F46CA4FF15BDEDDA0092F616 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46CA4FE15BDEDDA0092F616 /* CoreGraphics.framework */; };
+		F46CA50515BDEDDA0092F616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F46CA50315BDEDDA0092F616 /* InfoPlist.strings */; };
+		F46CA50715BDEDDA0092F616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA50615BDEDDA0092F616 /* main.m */; };
+		F46CA50B15BDEDDA0092F616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA50A15BDEDDA0092F616 /* AppDelegate.m */; };
+		F46CA52B15BDEE160092F616 /* GRAnimatedSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA51915BDEE160092F616 /* GRAnimatedSprite.m */; };
+		F46CA52C15BDEE160092F616 /* GRContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA51B15BDEE160092F616 /* GRContext.m */; };
+		F46CA52D15BDEE160092F616 /* GREngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA51D15BDEE160092F616 /* GREngine.m */; };
+		F46CA52E15BDEE160092F616 /* GRGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA51F15BDEE160092F616 /* GRGLView.m */; };
+		F46CA52F15BDEE160092F616 /* GRNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA52115BDEE160092F616 /* GRNode.m */; };
+		F46CA53015BDEE160092F616 /* GRProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA52315BDEE160092F616 /* GRProgram.m */; };
+		F46CA53115BDEE160092F616 /* GRSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA52515BDEE160092F616 /* GRSprite.m */; };
+		F46CA53215BDEE160092F616 /* GRSpriteAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA52715BDEE160092F616 /* GRSpriteAction.m */; };
+		F46CA53315BDEE160092F616 /* GRWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA52A15BDEE160092F616 /* GRWorld.m */; };
+		F46CA53615BDEE200092F616 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46CA53515BDEE200092F616 /* ViewController.m */; };
+		F46CA53915BDEE510092F616 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46CA53715BDEE510092F616 /* GLKit.framework */; };
+		F46CA53A15BDEE510092F616 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46CA53815BDEE510092F616 /* OpenGLES.framework */; };
+		F46CA53C15BDEE550092F616 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46CA53B15BDEE550092F616 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F46CA4F615BDEDDA0092F616 /* GrafikExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrafikExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46CA4FA15BDEDDA0092F616 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F46CA4FC15BDEDDA0092F616 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F46CA4FE15BDEDDA0092F616 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F46CA50215BDEDDA0092F616 /* GrafikExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrafikExample-Info.plist"; sourceTree = "<group>"; };
+		F46CA50415BDEDDA0092F616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F46CA50615BDEDDA0092F616 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F46CA50815BDEDDA0092F616 /* GrafikExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrafikExample-Prefix.pch"; sourceTree = "<group>"; };
+		F46CA50915BDEDDA0092F616 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F46CA50A15BDEDDA0092F616 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F46CA51715BDEE160092F616 /* Grafik.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grafik.h; sourceTree = "<group>"; };
+		F46CA51815BDEE160092F616 /* GRAnimatedSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAnimatedSprite.h; sourceTree = "<group>"; };
+		F46CA51915BDEE160092F616 /* GRAnimatedSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAnimatedSprite.m; sourceTree = "<group>"; };
+		F46CA51A15BDEE160092F616 /* GRContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRContext.h; sourceTree = "<group>"; };
+		F46CA51B15BDEE160092F616 /* GRContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRContext.m; sourceTree = "<group>"; };
+		F46CA51C15BDEE160092F616 /* GREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREngine.h; sourceTree = "<group>"; };
+		F46CA51D15BDEE160092F616 /* GREngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GREngine.m; sourceTree = "<group>"; };
+		F46CA51E15BDEE160092F616 /* GRGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRGLView.h; sourceTree = "<group>"; };
+		F46CA51F15BDEE160092F616 /* GRGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRGLView.m; sourceTree = "<group>"; };
+		F46CA52015BDEE160092F616 /* GRNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRNode.h; sourceTree = "<group>"; };
+		F46CA52115BDEE160092F616 /* GRNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRNode.m; sourceTree = "<group>"; };
+		F46CA52215BDEE160092F616 /* GRProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRProgram.h; sourceTree = "<group>"; };
+		F46CA52315BDEE160092F616 /* GRProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRProgram.m; sourceTree = "<group>"; };
+		F46CA52415BDEE160092F616 /* GRSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSprite.h; sourceTree = "<group>"; };
+		F46CA52515BDEE160092F616 /* GRSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSprite.m; sourceTree = "<group>"; };
+		F46CA52615BDEE160092F616 /* GRSpriteAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSpriteAction.h; sourceTree = "<group>"; };
+		F46CA52715BDEE160092F616 /* GRSpriteAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSpriteAction.m; sourceTree = "<group>"; };
+		F46CA52815BDEE160092F616 /* GRTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRTypes.h; sourceTree = "<group>"; };
+		F46CA52915BDEE160092F616 /* GRWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRWorld.h; sourceTree = "<group>"; };
+		F46CA52A15BDEE160092F616 /* GRWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRWorld.m; sourceTree = "<group>"; };
+		F46CA53415BDEE1F0092F616 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F46CA53515BDEE200092F616 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F46CA53715BDEE510092F616 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F46CA53815BDEE510092F616 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F46CA53B15BDEE550092F616 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46CA4F315BDEDDA0092F616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46CA53C15BDEE550092F616 /* QuartzCore.framework in Frameworks */,
+				F46CA53915BDEE510092F616 /* GLKit.framework in Frameworks */,
+				F46CA53A15BDEE510092F616 /* OpenGLES.framework in Frameworks */,
+				F46CA4FB15BDEDDA0092F616 /* UIKit.framework in Frameworks */,
+				F46CA4FD15BDEDDA0092F616 /* Foundation.framework in Frameworks */,
+				F46CA4FF15BDEDDA0092F616 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46CA4EB15BDEDDA0092F616 = {
+			isa = PBXGroup;
+			children = (
+				F46CA50015BDEDDA0092F616 /* GrafikExample */,
+				F46CA4F915BDEDDA0092F616 /* Frameworks */,
+				F46CA4F715BDEDDA0092F616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F46CA4F715BDEDDA0092F616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46CA4F615BDEDDA0092F616 /* GrafikExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46CA4F915BDEDDA0092F616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F46CA53B15BDEE550092F616 /* QuartzCore.framework */,
+				F46CA53715BDEE510092F616 /* GLKit.framework */,
+				F46CA53815BDEE510092F616 /* OpenGLES.framework */,
+				F46CA4FA15BDEDDA0092F616 /* UIKit.framework */,
+				F46CA4FC15BDEDDA0092F616 /* Foundation.framework */,
+				F46CA4FE15BDEDDA0092F616 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F46CA50015BDEDDA0092F616 /* GrafikExample */ = {
+			isa = PBXGroup;
+			children = (
+				F46CA51515BDEE090092F616 /* Classes */,
+				F46CA50915BDEDDA0092F616 /* AppDelegate.h */,
+				F46CA50A15BDEDDA0092F616 /* AppDelegate.m */,
+				F46CA50115BDEDDA0092F616 /* Supporting Files */,
+				F46CA53415BDEE1F0092F616 /* ViewController.h */,
+				F46CA53515BDEE200092F616 /* ViewController.m */,
+			);
+			path = GrafikExample;
+			sourceTree = "<group>";
+		};
+		F46CA50115BDEDDA0092F616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F46CA50215BDEDDA0092F616 /* GrafikExample-Info.plist */,
+				F46CA50315BDEDDA0092F616 /* InfoPlist.strings */,
+				F46CA50615BDEDDA0092F616 /* main.m */,
+				F46CA50815BDEDDA0092F616 /* GrafikExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F46CA51515BDEE090092F616 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F46CA51615BDEE160092F616 /* Grafik */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F46CA51615BDEE160092F616 /* Grafik */ = {
+			isa = PBXGroup;
+			children = (
+				F46CA51715BDEE160092F616 /* Grafik.h */,
+				F46CA51815BDEE160092F616 /* GRAnimatedSprite.h */,
+				F46CA51915BDEE160092F616 /* GRAnimatedSprite.m */,
+				F46CA51A15BDEE160092F616 /* GRContext.h */,
+				F46CA51B15BDEE160092F616 /* GRContext.m */,
+				F46CA51C15BDEE160092F616 /* GREngine.h */,
+				F46CA51D15BDEE160092F616 /* GREngine.m */,
+				F46CA51E15BDEE160092F616 /* GRGLView.h */,
+				F46CA51F15BDEE160092F616 /* GRGLView.m */,
+				F46CA52015BDEE160092F616 /* GRNode.h */,
+				F46CA52115BDEE160092F616 /* GRNode.m */,
+				F46CA52215BDEE160092F616 /* GRProgram.h */,
+				F46CA52315BDEE160092F616 /* GRProgram.m */,
+				F46CA52415BDEE160092F616 /* GRSprite.h */,
+				F46CA52515BDEE160092F616 /* GRSprite.m */,
+				F46CA52615BDEE160092F616 /* GRSpriteAction.h */,
+				F46CA52715BDEE160092F616 /* GRSpriteAction.m */,
+				F46CA52815BDEE160092F616 /* GRTypes.h */,
+				F46CA52915BDEE160092F616 /* GRWorld.h */,
+				F46CA52A15BDEE160092F616 /* GRWorld.m */,
+			);
+			name = Grafik;
+			path = ../../Source/Grafik;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46CA4F515BDEDDA0092F616 /* GrafikExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46CA50E15BDEDDA0092F616 /* Build configuration list for PBXNativeTarget "GrafikExample" */;
+			buildPhases = (
+				F46CA4F215BDEDDA0092F616 /* Sources */,
+				F46CA4F315BDEDDA0092F616 /* Frameworks */,
+				F46CA4F415BDEDDA0092F616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrafikExample;
+			productName = GrafikExample;
+			productReference = F46CA4F615BDEDDA0092F616 /* GrafikExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46CA4ED15BDEDDA0092F616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Hiddencode.me;
+			};
+			buildConfigurationList = F46CA4F015BDEDDA0092F616 /* Build configuration list for PBXProject "GrafikExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F46CA4EB15BDEDDA0092F616;
+			productRefGroup = F46CA4F715BDEDDA0092F616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46CA4F515BDEDDA0092F616 /* GrafikExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46CA4F415BDEDDA0092F616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46CA50515BDEDDA0092F616 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46CA4F215BDEDDA0092F616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46CA50715BDEDDA0092F616 /* main.m in Sources */,
+				F46CA50B15BDEDDA0092F616 /* AppDelegate.m in Sources */,
+				F46CA52B15BDEE160092F616 /* GRAnimatedSprite.m in Sources */,
+				F46CA52C15BDEE160092F616 /* GRContext.m in Sources */,
+				F46CA52D15BDEE160092F616 /* GREngine.m in Sources */,
+				F46CA52E15BDEE160092F616 /* GRGLView.m in Sources */,
+				F46CA52F15BDEE160092F616 /* GRNode.m in Sources */,
+				F46CA53015BDEE160092F616 /* GRProgram.m in Sources */,
+				F46CA53115BDEE160092F616 /* GRSprite.m in Sources */,
+				F46CA53215BDEE160092F616 /* GRSpriteAction.m in Sources */,
+				F46CA53315BDEE160092F616 /* GRWorld.m in Sources */,
+				F46CA53615BDEE200092F616 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F46CA50315BDEDDA0092F616 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46CA50415BDEDDA0092F616 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46CA50C15BDEDDA0092F616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F46CA50D15BDEDDA0092F616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F46CA50F15BDEDDA0092F616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrafikExample/GrafikExample-Prefix.pch";
+				INFOPLIST_FILE = "GrafikExample/GrafikExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F46CA51015BDEDDA0092F616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrafikExample/GrafikExample-Prefix.pch";
+				INFOPLIST_FILE = "GrafikExample/GrafikExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46CA4F015BDEDDA0092F616 /* Build configuration list for PBXProject "GrafikExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46CA50C15BDEDDA0092F616 /* Debug */,
+				F46CA50D15BDEDDA0092F616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46CA50E15BDEDDA0092F616 /* Build configuration list for PBXNativeTarget "GrafikExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46CA50F15BDEDDA0092F616 /* Debug */,
+				F46CA51015BDEDDA0092F616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46CA4ED15BDEDDA0092F616 /* Project object */;
+}
